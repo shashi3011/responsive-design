@@ -1,0 +1,276 @@
+body{
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+@media(min-width:1000px){
+
+  
+    .container{
+        
+        width: 70vw;
+        height:70vh;
+        margin: 50px 100px;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+    .logo{
+        height: 30px;
+    }
+    .nav-left{
+        display: flex;
+        gap: 10px;
+        align-items: center;
+    }
+    .nav-right{
+        display: flex;
+        gap: 10px;
+        align-items: center;
+    }
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+        position: sticky;
+        top: 0;
+        align-items: center;
+        margin-left: 0;
+        
+    }
+    .logo-btn{
+        font-weight: bold;
+        border:none;
+        background-color: white;
+        display: flex;
+        gap:0;
+        align-items: center;
+        text-align: center;
+    }
+    .nav-btn{
+        background-color: white;
+        border:none;
+        display: flex;
+        align-items: center;
+        gap: 3px;
+        font-size: 12px;
+    }
+    .login-btn{
+        border: 1px solid lightgray;
+        background-color: white;
+        border-radius: 8px;
+        padding:5px 8px;
+    }
+    .create{
+        border: none;
+        color: white;
+        background-color: black;
+        border-radius: 8px;
+        padding:5px 8px;
+    }
+    .page{
+        background-color: rgba(203, 224, 203, 0.232);
+        width:100%;
+        height:600px;
+        margin-top: 30px;
+        margin-left: 18px;
+        border-radius: 15px;
+        text-align: center;
+        padding: 20px;
+        
+    }
+    .desc{
+        padding:0px 180px;
+        margin-top: 30px;
+    }
+    .head{
+        border-radius:12px;
+        background-color: rgba(211, 211, 211, 0.652);
+        color: gray;
+        border:none;
+        padding: 5px;
+        font-size: 12px;
+
+    }
+    .pad{
+        padding:0px 210px;
+        margin-top: 40px;
+    }
+    .heading{
+        font-size: 35px;
+        margin:10px auto;
+         
+    }
+    .sub-heading{
+        font-size: 18px;
+    }
+    .main-img{
+        border-radius: 12px;
+        width:70%;
+        height: 330px;
+        object-fit: cover;
+        margin-top: 35px;
+
+    }
+    .more{
+        display: none;
+    }
+    .small{
+        display: none;
+    }
+    .purchase-btn{
+        width: 100%;
+        color: white;
+        background-color: black;
+        border-radius: 12px;
+        padding:4px;
+        border:none;
+        display: none;
+    }
+    .preview{
+        display: none;
+    }
+
+
+}
+
+
+
+
+
+
+@media(min-width:360px) and (max-width:999px){
+
+  
+    .container{
+        
+        width: 70vw;
+        height:70vh;
+        margin: 20px 20px;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+    .logo{
+        height: 18px;
+    }
+    .nav-left{
+        display: flex;
+        gap: 10px;
+        align-items: center;
+    }
+    .nav-right{
+        display: flex;
+        gap: 10px;
+        align-items: center;
+    }
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+        position: sticky;
+        top: 0;
+        align-items: center;
+        margin-left: 0;
+        
+    }
+    .logo-btn{
+        font-weight: bold;
+        border:none;
+        background-color: white;
+        display: flex;
+        gap:0;
+        align-items: center;
+        text-align: center;
+    }
+    .nav-btn{
+        background-color: white;
+        border:none;
+        display: flex;
+        align-items: center;
+        gap: 3px;
+        font-size: 12px;
+        display: none;
+    }
+    .login-btn{
+        border: 1px solid lightgray;
+        background-color: white;
+        border-radius: 8px;
+        padding:5px 8px;
+        display: none;
+    }
+    .create{
+        border: none;
+        color: white;
+        background-color: black;
+        border-radius: 8px;
+        padding:5px 8px;
+        display: none;
+    }
+    .more{
+        height: 20px;
+        width: 25px;
+    }
+    .page{
+        background-color: rgba(203, 224, 203, 0.232);
+        width:100%;
+        height:100%;
+        margin-top: 15px;
+        margin-left: 10px;
+        border-radius: 15px;
+        text-align: center;
+        padding: 5px;
+        
+    }
+    .desc{
+        padding:10px 10px;
+        margin-top: 15px;
+    }
+    .head{
+        border-radius:12px;
+        background-color: rgba(211, 211, 211, 0.652);
+        color: gray;
+        border:none;
+        padding: 5px;
+        font-size: 8px;
+
+    }
+    
+    
+    .heading{
+        font-size: 20px;
+        margin:10px auto;
+         
+    }
+    .sub-heading{
+        font-size: 12px;
+    }
+    .main-img{
+        border-radius: 12px;
+        width:80%;
+        height: 200px;
+        object-fit: cover;
+        margin-top: 15px;
+
+    }
+    .purchase-btn{
+        width: 100%;
+        color: white;
+        background-color: black;
+        border-radius: 12px;
+        padding:4px;
+        border:none;
+        margin-bottom: 10px;
+    }
+    .preview{
+        width: 100%;
+        color: black;
+        background-color: lightgray;
+        border-radius: 12px;
+        padding:4px;
+        border:1px solid gray;
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+}
